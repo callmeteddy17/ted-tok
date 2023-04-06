@@ -84,7 +84,7 @@ const Navbar = () => {
         ) : (
           <GoogleLogin
             onSuccess={(response) => createOrGetUser(response, addUser)}
-            onError={() => console.log('Error...')}
+            onError={() => console.log('Error')}
           />
         )}
       </div>
