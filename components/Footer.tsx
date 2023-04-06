@@ -18,9 +18,9 @@ const Footer = () => {
   return (
     <div className="mmtt-6 hidden xl:block">
       <List items={footerList1} mt={false} />
-      <List items={footerList2} />
-      <List items={footerList3} />
-      <p className="text-gray-400 text-sm mt-5">2023 Teddy's Tiktok</p>
+      <List items={footerList2} mt />
+      <List items={footerList3} mt />
+      <p className="text-gray-400 text-sm mt-5">2023 Tedtok</p>
     </div>
   );
 };
