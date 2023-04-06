@@ -83,7 +83,6 @@ const VideoCard: NextPage<IProps> = ({ post }) => {
           className="rounded-3xl">
           <Link href={`/detail/${post._id}`}>
             <video
-              onClick={onVideoPress}
               ref={videoRef}
               loop
               className="lg:w-[600px] h-[300px] md:h-[400px] lg:h-[530px] w-[200px] rounded-2xl cursor-pointer bg-gray-100"
